@@ -1,0 +1,370 @@
+What is a correct way to declare a Python variable?
+var x = 5
+#x = 5
+$x = 5
+x = 5 - True
+----------------------------------------------------------------
+True or False:
+You can declare string variables with single or double quotes.
+x = "John"
+# is the same as
+x = 'John'
+
+True
+False
+----------------------------------------------------------------
+True or False:
+Variable names are not case-sensitive.
+a = 5
+# is the same as
+A = 5
+
+True
+False
+----------------------------------------------------------------
+Select the correct functions to print the data type of a variable:
+
+print(type(myvar))
+----------------------------------------------------------------
+What is the correct file extension for Python files?
+
+
+.pp
+.pt
+.py - True
+----------------------------------------------------------------
+What is a correct command line syntax for checking if python is installed on your computer? (And also to check the Python version)
+
+python --version - True
+python ##version
+python version
+----------------------------------------------------------------
+What is a correct syntax to exit the Python command line interface?
+
+exit() - true
+stop()
+end()
+----------------------------------------------------------------
+True or False: Indentation in Python is for readability only.
+
+True
+False - Ture
+----------------------------------------------------------------
+print("Hello World")
+----------------------------------------------------------------
+Complete the code block, print "YES" if 5 is larger than 2.
+
+Hint: remember the indentation.
+
+
+if 5 > 2:
+    print("YES")
+----------------------------------------------------------------
+Which character is used to define a Python comment:
+
+'
+//
+# - True
+/*
+----------------------------------------------------------------
+Comments in Python are written with a special character, which one?
+
+
+#This is a comment
+----------------------------------------------------------------
+Use a multiline string to make the a multiline comment:
+
+'''
+This is a comment
+written in 
+more than just one line
+'''
+----------------------------------------------------------------
+What is a correct way to declare a Python variable?
+
+
+var x = 5
+#x = 5
+$x = 5
+x = 5 - True
+----------------------------------------------------------------
+True or False:
+You can declare string variables with single or double quotes.
+x = "John"
+# is the same as
+x = 'John'
+
+True - true
+False
+----------------------------------------------------------------
+True or False:
+Variable names are not case-sensitive.
+a = 5
+# is the same as
+A = 5
+
+True
+False - True
+----------------------------------------------------------------
+Select the correct functions to print the data type of a variable:
+
+print(type(myvar))
+----------------------------------------------------------------
+Which is NOT a legal variable name?
+
+
+my-var = 20 - true
+my_var = 20
+Myvar = 20
+_myvar = 20
+----------------------------------------------------------------
+
+carname
+ = 
+"Volvo"
+
+----------------------------------------------------------------
+x = 50
+----------------------------------------------------------------
+What is a correct syntax to add the value 'Hello World', to 3 variables in one statement?
+
+x, y, z = 'Hello World' 
+x = y = z = 'Hello World' - true
+x|y|z = 'Hello World'
+----------------------------------------------------------------
+x
+,
+ y
+,
+ z = "Orange", "Banana", "Cherry"
+----------------------------------------------------------------
+Consider the following code:
+fruits = ['apple', 'banana', 'cherry']
+a, b, c = fruits
+print(a)
+What will be the result of a
+
+apple - true
+banana
+cherry
+----------------------------------------------------------------
+Consider the following code:
+print('Hello', 'World')
+What will be the printed result?
+
+
+Hello, World
+Hello World - True
+HelloWorld
+----------------------------------------------------------------
+Consider the following code:
+a = 'Hello'
+b = 'World'
+print(a + b)
+What will be the printed result?
+
+a + b
+Hello World
+HelloWorld - true
+----------------------------------------------------------------
+Consider the following code:
+a = 4
+b = 5
+print(a + b)
+What will be the printed result?
+
+45
+9 - True
+4 + 5
+----------------------------------------------------------------
+Consider the following code:
+x = 'awesome'
+def myfunc():
+  x = 'fantastic'
+myfunc()
+print('Python is ' + x)
+What will be the printed result?
+
+
+Python is awesome - True
+Python is fantastic
+----------------------------------------------------------------
+sert the correct keyword to make the variable x belong to the global scope.
+
+
+def myfunc():
+  
+global
+ x
+  x = "fantastic"
+----------------------------------------------------------------
+Consider the following code:
+x = 'awesome'
+def myfunc():
+  global x
+  x = 'fantastic'
+myfunc()
+print('Python is ' + x)
+What will be the printed result?
+
+Python is awesome
+Python is fantastic - True
+----------------------------------------------------------------
+If x = 5, what is a correct syntax for printing the data type of the variable x?
+
+
+print(dtype(x))
+print(type(x)) - True
+print(x.dtype())
+----------------------------------------------------------------
+The following code example would print the data type of x, what data type would that be?
+
+
+x = 5
+print(type(x))
+
+int
+----------------------------------------------------------------
+str
+----------------------------------------------------------------
+The following code example would print the data type of x, what data type would that be?
+
+
+x = 20.5
+print(type(x))
+
+float
+----------------------------------------------------------------
+The following code example would print the data type of x, what data type would that be?
+
+
+x = ["apple", "banana", "cherry"]
+print(type(x))
+
+list
+----------------------------------------------------------------
+The following code example would print the data type of x, what data type would that be?
+
+
+x = ("apple", "banana", "cherry")
+print(type(x))
+
+tuple
+----------------------------------------------------------------
+The following code example would print the data type of x, what data type would that be?
+
+
+x = {"name" : "John", "age" : 36}
+print(type(x))
+
+dict
+----------------------------------------------------------------
+The following code example would print the data type of x, what data type would that be?
+
+
+x = True
+print(type(x))
+
+bool
+----------------------------------------------------------------
+Which is NOT a legal numeric data type in Python:
+
+
+int
+long - True
+float
+----------------------------------------------------------------
+Insert the correct syntax to convert x into a floating point number.
+
+
+x = 5
+x = 
+float(x)
+----------------------------------------------------------------
+x = 5.5
+x = 
+int
+(x)
+----------------------------------------------------------------
+x = 5
+x = 
+complex
+(x)
+----------------------------------------------------------------
+What will be the result of the following code:
+print(int(35.88))
+
+
+35 - True
+35.88
+36
+----------------------------------------------------------------
+What will be the result of the following code:
+print(float(35))
+
+35
+35.0 - True
+0.35
+----------------------------------------------------------------
+What will be the result of the following code:
+print(str(35.82))
+
+35
+35.8
+35.82 - True
+----------------------------------------------------------------
+What will be the result of the following code:
+x = 'Welcome'
+print(x[3])
+
+Wel
+c - True
+Welcome Welcome Welcome
+----------------------------------------------------------------
+Use the len function to print the length of the string.
+
+
+x = "Hello World"
+print(
+len(x)
+)
+----------------------------------------------------------------
+Get the first character of the string txt.
+
+
+txt = "Hello World"
+x = 
+txt[0]
+----------------------------------------------------------------
+Insert the correct keyword to check if the word 'free' is present in the text:
+
+txt = 'The best things in life are free!'
+if 'free' in txt:
+  print('Yes, free is present in the text.')
+----------------------------------------------------------------
+What is a correct syntax to merge variable x and y into variable z?
+
+z = x, y
+z = x = y
+z = x + y - True
+----------------------------------------------------------------
+What will be the result of the following code:
+x = 'Welcome'
+y = 'Coders'
+print(x + y)
+
+Welcome Coders
+WelcomeCoders - true
+Welcome
+Coders
+----------------------------------------------------------------
+Consider this code:
+a = 'Join'
+b = 'the'
+c = 'party'
+What is a correct syntax to print 'Join the party'?
+
+print(a + b + c)
+print(a + ' ' + b + ' ' + c) - True
+print(a b c)
+----------------------------------------------------------------
