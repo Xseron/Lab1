@@ -44,7 +44,7 @@ def draw_screen():
     icon = pause_icon if playing else play_icon
     screen.blit(icon, (250 - icon.get_width()//2, 150))
 
-    creator_text = font_small.render("Created by Nurgali Nursultan", True, (180, 180, 180))
+    creator_text = font_small.render("Created by David Torossyan", True, (180, 180, 180))
     screen.blit(creator_text, (250 - creator_text.get_width() // 2, 270))
     
     pygame.display.flip()
